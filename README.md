@@ -52,19 +52,19 @@ https://dashboard-anomalies-industrielles-cfpm3basp2vt2eoo2jcbxs.streamlit.app/
 
 ##  Installation locale
 
-# Clone
-git clone https://github.com/tonpseudo/dashboard-anomalies-industrielles
+- Clone
+git clone [https://github.com/tonpseudo/dashboard-anomalies-industrielles](https://github.com/Ismael-L-M-Diallo/Dashboard-anomalies-industrielles/)
 cd dashboard-anomalies-industrielles
 
-# Environnement virtuel
+- Environnement virtuel
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate    # Windows
 
-# Dépendances
-pip install -r requirements.txt
+ - Dépendances
+ pip install -r requirements.txt
 
-# Lancer
+- Lancer
 streamlit run app.py
 
 Ouvre http://localhost:8501
@@ -111,6 +111,6 @@ MIT License - Apache 2.0
 
 ## Remerciements
 
-Dataset : France Energy Weather Kaggle
+ -Dataset : France Energy Weather Kaggle
 
 Auteur : Ismaël Diallo
