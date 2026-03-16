@@ -6,6 +6,7 @@
 
 **Détection automatique d'anomalies sur 1.4M points horaires de consommation électrique France (2023-2024). IsolationForest + Streamlit.**
 
+![Dashboard](assets/newplot.png)
 
 ##  Contexte métier
 
