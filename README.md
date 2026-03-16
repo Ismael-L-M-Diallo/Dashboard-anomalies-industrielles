@@ -53,7 +53,7 @@ https://dashboard-anomalies-industrielles-cfpm3basp2vt2eoo2jcbxs.streamlit.app/
 ##  Installation locale
 
 - Clone
-git clone [https://github.com/tonpseudo/dashboard-anomalies-industrielles](https://github.com/Ismael-L-M-Diallo/Dashboard-anomalies-industrielles/)
+git clone https://github.com/Ismael-L-M-Diallo/Dashboard-anomalies-industrielles
 cd dashboard-anomalies-industrielles
 
 - Environnement virtuel
