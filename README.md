@@ -5,7 +5,6 @@
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
 
 **Détection automatique d'anomalies sur 1.4M points horaires de consommation électrique France (2023-2024). IsolationForest + Streamlit.**
-blob:moz-extension://534e746e-94d1-4e2a-b1cd-b801c7d6c685/0ebd4e2f-d0e9-4dcd-9274-59d013ad445e
 
 
 ##  Contexte métier
