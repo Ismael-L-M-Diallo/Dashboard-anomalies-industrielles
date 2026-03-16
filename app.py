@@ -5,7 +5,7 @@ from sklearn.ensemble import IsolationForest
 from sklearn.preprocessing import StandardScaler
 
 st.set_page_config(layout="wide")
-st.title("🛡️ Dashboard Détection Anomalies Énergie France")
+st.title("Dashboard Détection Anomalies Énergie France")
 
 contamination = st.sidebar.slider("Sensibilité (%)", 0.5, 5.0, 1.5, 0.1) / 100
 
@@ -16,7 +16,7 @@ def load_data():
     return df.sort_values('datetime_hour')
 
 df = load_data()
-st.info(f"📊 {len(df):,} lignes | {df['datetime_hour'].min().date()} → {df['datetime_hour'].max().date()}")
+st.info(f" {len(df):,} lignes | {df['datetime_hour'].min().date()} → {df['datetime_hour'].max().date()}")
 
 data = df['conso_elec_mw'].dropna()
 scaler = StandardScaler()
