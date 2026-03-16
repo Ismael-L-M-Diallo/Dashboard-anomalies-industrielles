@@ -52,19 +52,19 @@ https://dashboard-anomalies-industrielles-cfpm3basp2vt2eoo2jcbxs.streamlit.app/
 
 ##  Installation locale
 
-- Clone
+- Clone:
 git clone https://github.com/Ismael-L-M-Diallo/Dashboard-anomalies-industrielles
 cd dashboard-anomalies-industrielles
 
-- Environnement virtuel
+- Environnement virtuel:
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate    # Windows
 
- - Dépendances
+ - Dépendances:
  pip install -r requirements.txt
 
-- Lancer
+- Lancer:
 streamlit run app.py
 
 Ouvre http://localhost:8501
